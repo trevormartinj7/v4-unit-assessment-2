@@ -12,3 +12,195 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.top-bar{
+    position: fixed;
+    display: flex;
+    background-color: rgb(37, 37, 37);
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 8vh;
+    z-index: 6;
+}
+
+.logo{
+    position: relative;
+    left: 20px;
+    color: rgb(42, 171, 226);
+    font-size: xx-large;
+}
+
+.sub-menu{
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+}
+
+.clickable{
+    color: white;
+}
+
+.content{
+    position: relative;
+    top: 12vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-menu{
+    display: flex;
+    justify-content: center;
+
+}
+
+.skills-check{
+    /* background-color: aliceblue; */
+    width: 40vw;
+    margin-right: 5vw;
+
+}
+
+.tall-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aquamarine; */
+    width: 20vw;
+
+}
+
+
+
+.images{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: brown; */
+}
+
+.image-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-right{
+    color: blue;
+    display: flex;
+    align-items: flex-end;
+    height: 30px;
+}
+
+.image-array{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+img{
+    margin: 5px;
+    margin-top: 30px;
+    height: auto;
+    width: 10vw;
+}
+
+footer{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    position:absolute;
+    top: 1200px;
+    width: 100vw;
+    background-color: rgb(42, 171, 226);
+    height: 8vh;
+}
+.bottom-text{
+    position: relative;
+    left: 5vw;
+}
+
+.question-mark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 93vh;
+    left: 90vw;
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    z-index: 6;
+    background-color: rgb(42, 171, 226);;
+    border-radius: 50%;
+    border: 3px solid black;
+
+}
+
+.q-text{
+    position: relative;
+    /* top: 18px;
+    left: 19px; */
+}
+
+.top-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 5px;
+    /* background-color: bisque; */
+    height: 30%;
+    width:18vw;
+    box-shadow: 0 0 10px black;
+}
+
+.bottom-box{
+    position: relative;
+    /* background-color: black; */
+    height: 40%;
+    width:18vw;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pop-title{
+    margin-top: 10px;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-topics{
+    display: flex;
+    justify-content: center;
+    height:70%;
+}
+
+ol{
+    margin-top: 10px;
+}
+
+li{
+    margin-top: 5px;
+}
+
+.big-circle{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(42, 171, 226);;
+    border-radius: 50%;
+    border: 3px solid black;
+}
